@@ -1,0 +1,22 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Weixin",
+    "navigationBarTextStyle":"black"
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "用于进行扫码定位"
+    },
+    "scope.camera": {
+      "desc": "用于进行扫码操作"
+    }
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
